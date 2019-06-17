@@ -5,3 +5,8 @@ def square_array(array)
   end
     return newarray
 end
+
+
+def square_array(array)
+return array.collect { |x| x * x}
+end
